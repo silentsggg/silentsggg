@@ -57,6 +57,7 @@ class SingleLinkedList:
             while temp is not None:
                 print(temp.value)
                 temp = temp.next
+                # 防止有重复添加的结点，形成循环链表，造成无限循环
                 if temp == self.headnode:
                     print(temp.value)
                     break
