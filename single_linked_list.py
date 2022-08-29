@@ -123,7 +123,7 @@ class SingleLinkedList:
             node.next = temp.next  # index的上一个结点的next为index的下一个结点
             temp.next = None  # index结点下一个结点为None，剥离
 
-
+# 单链表测试
 # 实例化链表结点node1-node5
 node1 = Nodes(1)
 node2 = Nodes(2)
